@@ -18,7 +18,7 @@
         } else { ?>
                 <nav>
                         <ul class="header-menu">
-                                <li><h1><a href="index.php"><img class="logo opacity" src="img/icon3.svg" alt="ロゴ"></a>CorpSales<span>/コープセールス</span></h1></li>
+                                <li><h1><a href="index.php"><img class="logo opacity" src="img/icon.svg" alt="ロゴ"></a>CorpSales<span>/コープセールス</span></h1></li>
                                 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　
                                 <li><a id="list" href="login-input.php">ログイン</a></li>
                         </ul>
