@@ -200,15 +200,16 @@ if($_REQUEST['id']!==NULL) {
         <td></td>
     </tr>
     </table>
-    <input type="submit" value="登録">
+    <input type="submit" value="確定">
     <?php
-    //リクエストIDがあるまたは編集セッション用IDがある場合
-    if($_REQUEST['id']!==NULL || $_SESSION['company_id']===NULL) { ?>
+    //リクエストIDがあるまたは編集セッション用IDがある場合戻るボタン表示
+    if($_REQUEST['id']!==NULL) { ?>
         <button type="button" onclick="location.href='history-detail.php?id=<?php echo $_REQUEST['id']; ?>'">戻る</button>
     <?php
-    } else { ?>
-        <button type="button" onclick="location.href='history.php'">トップ</button>
-    <?php } ?>
+    } elseif($_SESSION['company_id']!==NULL) { ?>
+        <button type="button" onclick="location.href='history-detail.php?id=<?php echo $_SESSION['company_id']; ?>'">戻る</button>
+    <?php
+    } ?>
 </form>
 </div>
 <?php require('footer.php'); ?>
