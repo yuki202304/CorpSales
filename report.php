@@ -231,6 +231,7 @@ if($_REQUEST['id']!==NULL) {
     echo('エラーメッセージ：'.$e->getMessage());
   }
   foreach($sql as $row) {
+    $company_id = $row['company_id'];
     $method_id = $row['method_id'];
     $purpose_id = $row['purpose_id'];
     $company_name = $row['company_name'];
@@ -421,11 +422,12 @@ try {
         } ?>"><?php echo '<font color="RED">'.$_SESSION['error_report']['timer'].'</font>'; ?></td>
   </tr>
 </table>
-<button type="submit" name="action" value="send">登録</button>
+<button type="submit" name="action" value="send">確定</button>
+<?php
+//リクエストIDがあるまたは編集セッション用IDがある場合戻るボタン表示
+    if($_REQUEST['id']!==NULL || $_SESSION['report_id']!==NULL) { ?>
+        <button type="button" onclick="location.href='history-detail.php?id=<?php echo $company_id; ?>'">戻る</button>
+    <?php } ?>
 </form>
 </div>
-
-<?php
-
-?>
 <?php require('footer.php'); ?>
