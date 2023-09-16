@@ -7,8 +7,8 @@ echo $_SESSION['message'];
 
 if($_SESSION['message']===NULL) { ?>
   <div class="body">
-    <input type="button" onclick="location.href='history.php'" value="TOPへ">
-    <input type="button" onclick="location.href='customer.php'" value="担当者登録へ">
+    <input type="button" onclick="location.href='history.php'" value="企業一覧">
+    <input type="button" onclick="location.href='customer.php'" value="担当者登録">
   </div>
 <?php
 } else {
@@ -66,8 +66,8 @@ if($_SESSION['message']===NULL) { ?>
   </tr>
   <?php } ?>
 </table>
-<input type="button" onclick="location.href='history.php'" value="TOPへ">
-<input type="button" onclick="location.href='customer.php'" value="担当者登録へ">
+<input type="button" onclick="location.href='history.php'" value="企業一覧">
+<input type="button" onclick="location.href='customer.php'" value="担当者登録">
 <?php }
 unset($_SESSION['customer']);
 unset($_SESSION['customer_id']);
