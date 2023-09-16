@@ -438,6 +438,4 @@ let barChart = new Chart(barCtx, barConfig) ;
 </table>
 </div>
 <?php } ?>
-
-
 <?php require('footer.php'); ?>
