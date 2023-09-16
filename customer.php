@@ -129,7 +129,7 @@ if($_REQUEST['id']!=="") {
         <button type="button" onclick="location.href='history-detail.php?id=<?php echo $company_id; ?>'">戻る</button>
     <?php
     } else { ?>
-        <button type="button" onclick="location.href='history.php'">トップ</button>
+        <button type="button" onclick="location.href='history.php'">企業一覧</button>
     <?php } ?>
 </form>
 </div>
