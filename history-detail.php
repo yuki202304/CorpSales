@@ -120,7 +120,7 @@ foreach($sql as $row) {
     $tel = $row['TEL'];
     $mail = $row['mail'];
     $notes = $row['notes'];
-  }
+  
   if($count!==0) {
   ?>
   <table>
@@ -156,12 +156,16 @@ foreach($sql as $row) {
       <td></td>
       <td><button type="button" onclick="location.href='customer.php?id=<?php echo $customer_id; ?>'">変更</button></td>
     </tr>
+    <tr>
+      <td></td>
+    </tr>
   </table>
   <?php
   } else {
     ?>
     <p>登録がありません。</p>
-  <?php } ?>
+  <?php } 
+  }?>
 
   <!--/customer--></div>
   
