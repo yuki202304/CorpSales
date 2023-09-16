@@ -1,6 +1,6 @@
 <?php require('header.php'); ?>
 <?php require('menu.php'); ?>
-<h2>日報入力</h2>
+<h2>行動登録</h2>
 <hr>
 <?php
 echo '<p>'.$_SESSION['message'].'</p>';
