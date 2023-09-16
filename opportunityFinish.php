@@ -69,8 +69,8 @@ if($_SESSION['opportunity']===NULL) { ?>
       <td><?php echo $possibility; ?></textarea></td>
     </tr>
   </table>
-  <input type="button" onclick="location.href='history.php'" value="TOPへ">
-  <input type="button" onclick="location.href='opportunity.php'" value="案件登録へ">
+  <input type="button" onclick="location.href='history.php'" value="企業一覧">
+  <input type="button" onclick="location.href='opportunity.php'" value="案件登録">
   </div>
   <?php 
   unset($_SESSION['opportunity']);

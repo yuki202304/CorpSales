@@ -25,6 +25,6 @@ unset($_SESSION['error_report']);
 <div class="body">
 <p><?php echo $_SESSION['login']['name'], 'さん。ログアウトしますか？'; ?></p>
 <button type="button" onclick="location.href='logout-output.php'">ログアウト</button>
-<button type="button" onclick="location.href='index.php'">トップ</button>
+<button type="button" onclick="location.href='index.php'">トップへ</button>
 </div>
 <?php require('footer.php'); ?>

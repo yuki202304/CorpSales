@@ -1,6 +1,6 @@
 <?php require('header.php'); ?>
 <?php require('menu.php'); ?>
-<h2>日報登録</h2>
+<h2>行動登録</h2>
 <hr>
 <?php
 if($_SESSION['report_id']===NULL) { ?>
@@ -84,8 +84,8 @@ if($_SESSION['report']!==NULL) {
     <td><?php echo $timer.'分'; ?></td>
   </tr>
 </table>
-<input type="button" onclick="location.href='history.php'" value="TOPへ">
-<input type="button" onclick="location.href='report.php'" value="日報登録へ">
+<input type="button" onclick="location.href='history.php'" value="企業一覧へ">
+<input type="button" onclick="location.href='report.php'" value="行動登録へ">
 </div>
 <?php 
 unset($_SESSION['report']);

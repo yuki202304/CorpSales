@@ -384,18 +384,58 @@ let barChart = new Chart(barCtx, barConfig) ;
 <?php
 } else {
 ?>
-<h2>説明</h2>
+<h2>システム概要</h2>
 <hr>
 <div class="main">
-<h3>システムの概要</h3>
-<p>中小企業向け、特に仕入れの発生する企業の営業担当が使用するシステムです。</p>
-<p>企業管理、担当者管理、案件管理、行動管理ができます。</p>
-<h3>共通操作</h3>
-<p>トップ画面</p>
-<p>企業一覧から</p>
-<p></p>
-<h3>注意</h3>
+<p>顧客管理、案件管理、行動管理ができる営業支援システムです。</p>
 <p>＊企業の名称、住所、担当者等は全て架空のものです。</p>
+<p>下記いずれかのログインID、パスワードからログインしてください。</p>
+<table border=1>
+  <tr>
+    <th>ログインID</th>
+    <th>パスワード</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>taro</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>takeshi</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>shingo</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>mariko</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>tsuyoshi</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>aiko</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>jiro</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>kazuki</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>mai</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>hiroshi</td>
+  </tr>
+</table>
 </div>
 <?php } ?>
 
