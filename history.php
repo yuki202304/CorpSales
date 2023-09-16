@@ -36,6 +36,7 @@ if (!isset($_REQUEST['page'])) {
 <input type="text" name="search_name">
 <button type="submit" name="action" value="search">検索</button>
 <button type="submit" name="action" value="list">全件表示</button>
+＊法人番号、企業名、住所、電話番号、自社担当者の検索が可能です。
 </form>
 <hr>
 <h3><?php echo $hname; ?></h3>
