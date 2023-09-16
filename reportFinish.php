@@ -84,8 +84,8 @@ if($_SESSION['report']!==NULL) {
     <td><?php echo $timer.'分'; ?></td>
   </tr>
 </table>
-<input type="button" onclick="location.href='history.php'" value="企業一覧へ">
-<input type="button" onclick="location.href='report.php'" value="行動登録へ">
+<input type="button" onclick="location.href='history.php'" value="企業一覧">
+<input type="button" onclick="location.href='report.php'" value="行動登録">
 </div>
 <?php 
 unset($_SESSION['report']);
