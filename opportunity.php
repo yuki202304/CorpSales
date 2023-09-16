@@ -147,9 +147,11 @@ try {
 </table>
 <input type="submit" value="確定">
 <?php 
-if($_SESSION['opportunity_id']!==NULL) { ?>
-    <input type="button" onclick="location.href='history-detail.php?id=<?php echo $company_id; ?>'" value="戻る">
-<?php } ?>
+    //リクエストIDがあるまたは編集セッション用IDがある場合戻るボタン表示
+    if($_REQUEST['id']!==NULL || $_SESSION['opportunity_id']!==NULL) { ?>
+        <button type="button" onclick="location.href='history-detail.php?id=<?php echo $company_id; ?>'">戻る</button>
+    <?php
+    } ?>
 </form>
 </div>
 <?php require('footer.php'); ?>
