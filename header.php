@@ -29,16 +29,16 @@
         
     $(function() {
         $("#customer").autocomplete({
-            source: "./autocomplete-customer.php"
+            source: "autocomplete-customer.php"
         });
         $("#company").autocomplete({
-            source: "./autocomplete-company.php"
+            source: "autocomplete-company.php"
         });
         $("#employee").autocomplete({
-            source: "./autocomplete-employee.php"
+            source: "autocomplete-employee.php"
         });
         $("#opportunity").autocomplete({
-            source: "./autocomplete-opportunity.php"
+            source: "autocomplete-opportunity.php"
         });
     });
 </script>
