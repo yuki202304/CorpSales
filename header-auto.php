@@ -13,7 +13,7 @@
     <!-- jQuery 郵便番号自動生成 -->
     <script src="//yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
     <!-- jQuery autocompleteを使った自動補完 -->
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" />
 <script src="//code.jquery.com/jquery-3.5.1.js"></script>
 <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
