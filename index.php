@@ -231,7 +231,7 @@ try {
     }
       foreach($sql1 as $row) { ?>
       <tr>
-        <td width=30><?php var_dump($row['possibility']); ?><?php echo mb_substr($row['possibility'], 0, 1); ?></td>
+        <td width=30><?php var_dump($sql1); ?><?php var_dump($row['possibility']); ?><?php echo mb_substr($row['possibility'], 0, 1); ?></td>
         <td width=190><?php echo $row['company_name']; ?></td>
         <td width=250><?php echo $row['opportunity']; ?></td>
         <td width=90><?php echo number_format($row['selling_price']).'円'; ?></td>
