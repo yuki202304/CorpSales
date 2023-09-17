@@ -297,3 +297,4 @@ foreach($sql as $row) {
   <!--/opportunity--></div>
 <!--wrapper--></div>
 <?php require('footer-detail.php'); ?>
+<?php require('footer.php'); ?>
