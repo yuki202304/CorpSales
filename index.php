@@ -229,13 +229,19 @@ try {
       </tr>
       <?php
     }
-      foreach($sql1 as $row) { ?>
+      foreach($sql1 as $row) {
+        $possibility = $row['possibility'];
+        $company_name = $row['company_name'];
+        $opportunity = $row['opportunity'];
+        $selling_price = $row['selling_price'];
+        $id = $row['id'];
+        ?>
       <tr>
-        <td width=30><?php var_dump($row['company_name']); ?><?php echo mb_substr($row['possibility'], 0, 1); ?></td>
-        <td width=190><?php echo $row['company_name']; ?></td>
-        <td width=250><?php echo $row['opportunity']; ?></td>
-        <td width=90><?php echo number_format($row['selling_price']).'円'; ?></td>
-        <td><button type="button" onclick="location.href='opportunity.php?id=<?php echo $row['id']; ?>'">変更</button></td>
+        <td width="30"><?php echo mb_substr($possibility, 0, 1); ?></td>
+        <td width=190><?php echo $company_name; ?></td>
+        <td width=250><?php echo $opportunity; ?></td>
+        <td width=90><?php echo number_format($selling_price).'円'; ?></td>
+        <td><button type="button" onclick="location.href='opportunity.php?id=<?php echo $id; ?>'">変更</button></td>
       </tr>
       <?php }
     if($count2!==0) { ?>
