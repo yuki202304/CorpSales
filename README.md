@@ -39,11 +39,17 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 <img width="947" alt="index2" src="https://github.com/yuki202304/CorpSales/assets/131171459/db5e7bd2-b52a-47e6-8423-a41ba0852bc1">
 
 3.企業一覧
-データベースに登録している企業の一覧を確認することができます。
-<img width="947" alt="history" src="https://github.com/yuki202304/CorpSales/assets/131171459/f8e9c03f-1161-4b68-ae01-52fb3cace3a2">
+
+企業一覧画面ではデータベースに登録されている企業を確認することができます。ページネーションを実装しており、1ページにつき10件ずつ表示させております。
+
+フォームでは法人番号、企業名、住所、電話番号、自社担当者の検索が可能です。
+
+詳細ボタンから企業ごとの詳細情報を確認することができます。
+<img width="947" alt="history" src="https://github.com/yuki202304/CorpSales/assets/131171459/ea80c361-8e12-45b0-9ced-c554b6b37428">
 
 4.企業登録
-<img width="946" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/0a767317-031e-41f2-9078-c05fc4a912d5">
+<img width="946" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/79738e05-074b-4bcc-9daa-574fe442e179">
+
 
 5.担当者登録
 <img width="945" alt="customer" src="https://github.com/yuki202304/CorpSales/assets/131171459/90c6f6c0-be67-4936-a134-fe5bb483ef05">
