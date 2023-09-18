@@ -1,6 +1,6 @@
 <?php require('header.php'); ?>
 <?php require('menu.php'); ?>
-<h2>ログイン画面</h2>
+<h2>ログイン</h2>
 <hr>
 <div class="body">
 <?php
