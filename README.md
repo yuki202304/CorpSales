@@ -90,7 +90,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 
 検索ボタンを押す前は関連先案件、取引先担当者ともにテキストボックスとなっていますが、入力できないようにしています。
 
-<img width="947" alt="report" src="https://github.com/yuki202304/CorpSales/assets/131171459/ea712f03-ac35-4ee8-8d3d-26d3c59ef1a7">
+<img width="947" alt="report" src="https://github.com/yuki202304/CorpSales/assets/131171459/1526753c-0624-4346-af69-1db9959d854d">
 
 ### 8.企業詳細
 
