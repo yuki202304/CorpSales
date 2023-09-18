@@ -21,7 +21,42 @@
 
 ## ER図
 
-## 画面遷移図
+## 利用方法
+1.ログイン
+
+下記画面でログインします。
+
+＊管理者がユーザー登録をする前提で制作しています。ログイン前画面にログインIDとパスワードを載せているのでそちらを用いてログインしてください。
+<img width="956" alt="login" src="https://github.com/yuki202304/CorpSales/assets/131171459/3bb3a211-cf30-472e-9546-76f5fd0ccaa5">
+
+2.TOP画面
+
+TOP画面で個人成績と今月全体成績を表示させるようにしています。
+
+個人成績では今月を含めた今後3カ月間の案件が確認できます。受注確度も同時に確認できるので進捗状況が一目でわかります。
+それぞれの案件金額や受注確度など変更ボタンから編集することができるようにしています。
+<img width="942" alt="index" src="https://github.com/yuki202304/CorpSales/assets/131171459/435f3efb-84e2-4349-8644-7963d006a572">
+<img width="947" alt="index2" src="https://github.com/yuki202304/CorpSales/assets/131171459/db5e7bd2-b52a-47e6-8423-a41ba0852bc1">
+
+3.企業一覧
+データベースに登録している企業の一覧を確認することができます。
+<img width="947" alt="history" src="https://github.com/yuki202304/CorpSales/assets/131171459/f8e9c03f-1161-4b68-ae01-52fb3cace3a2">
+
+4.企業登録
+<img width="946" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/0a767317-031e-41f2-9078-c05fc4a912d5">
+
+5.担当者登録
+<img width="945" alt="customer" src="https://github.com/yuki202304/CorpSales/assets/131171459/90c6f6c0-be67-4936-a134-fe5bb483ef05">
+
+6.案件登録
+<img width="946" alt="opportunity" src="https://github.com/yuki202304/CorpSales/assets/131171459/3e6d8b74-6d6b-4785-8524-946aa0492fa8">
+
+7.行動登録
+<img width="947" alt="report" src="https://github.com/yuki202304/CorpSales/assets/131171459/ea712f03-ac35-4ee8-8d3d-26d3c59ef1a7">
+
+8.ログアウト
+<img width="958" alt="logout" src="https://github.com/yuki202304/CorpSales/assets/131171459/0c73fc6b-1cb7-400f-9827-15d2c42669e8">
+
 
 
 
