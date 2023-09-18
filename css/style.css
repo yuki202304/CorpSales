@@ -24,7 +24,6 @@ body {
 .header-menu {
   background-color: white;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   gap: 3px;
   margin-right: 1px;
