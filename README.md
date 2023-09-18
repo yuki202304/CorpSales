@@ -21,6 +21,7 @@
 その他　mySQL
 
 ## ER図
+![er](https://github.com/yuki202304/CorpSales/assets/131171459/34a8474b-ac9f-4901-84c2-9d59e7b37c31)
 
 ## 利用方法
 1.ログイン
