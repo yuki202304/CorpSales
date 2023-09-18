@@ -67,7 +67,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 企業登録画面から企業登録を行います。必須項目に入力せず確定ボタンを押すとエラーメッセージが表示されます。
 自社担当者の入力項目では現在ログインしている担当者名が自動的に入力されるようにしていますが、変更することも可能です。
 
-<img width="947" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/5b510182-4adc-4023-8ac4-e3e1f8902160">
+<img width="947" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/e97350ff-f938-44ce-901b-d6c6874714db">
 
 ### 5.担当者登録
 
