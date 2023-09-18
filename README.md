@@ -48,6 +48,8 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 <img width="947" alt="history" src="https://github.com/yuki202304/CorpSales/assets/131171459/ea80c361-8e12-45b0-9ced-c554b6b37428">
 
 4.企業登録
+
+企業登録画面から企業登録を行います。必須項目に入力せず確定ボタンを押すとエラーメッセージが表示されます。
 <img width="946" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/79738e05-074b-4bcc-9daa-574fe442e179">
 
 
