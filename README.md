@@ -114,7 +114,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 
 案件ごとの行動履歴を確認することができます。＋ボタンを押すことでそれぞれの行動詳細を確認することができ、変更ボタンから編集画面に遷移します。
 
-<img width="947" alt="report" src="https://github.com/yuki202304/CorpSales/assets/131171459/9f438014-c91b-4944-a4b8-1f10764c69e4">
+<img width="947" alt="report-detail" src="https://github.com/yuki202304/CorpSales/assets/131171459/e8dacfda-ba2e-48dc-a194-c82faea66bc8">
 
 ### 12.ログアウト
 
