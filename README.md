@@ -76,7 +76,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 
 正しい関連先企業の入力を行ってもらうため、文字の一部を入力すると当てはまる単語をリストアップしてくれるjQuery UIのAutocompleteを使用してオートコンプリート（自動補完）機能を実装しています。
 
-<img width="945" alt="customer" src="https://github.com/yuki202304/CorpSales/assets/131171459/90c6f6c0-be67-4936-a134-fe5bb483ef05">
+<img width="948" alt="customer" src="https://github.com/yuki202304/CorpSales/assets/131171459/26c8ba8d-a157-40fa-9256-8b2bee42b8b3">
 
 ### 6.案件登録
 
