@@ -1,4 +1,4 @@
-<?php require('header-auto.php'); ?>
+<?php require('header.php'); ?>
 <?php require('menu.php'); ?>
 <h2>案件登録</h2>
 <hr>
