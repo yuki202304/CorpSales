@@ -3,7 +3,6 @@
 顧客管理、案件管理、行動管理が行える営業支援システムです。前職の営業経験から営業マンの負担の少ないシンプルでわかりやすい営業支援システムを制作したいと思い開発しました。
 
 <img width="942" alt="index" src="https://github.com/yuki202304/CorpSales/assets/131171459/63f272fe-d3e6-45f2-b175-fc977924a4eb">
-<img width="947" alt="index2" src="https://github.com/yuki202304/CorpSales/assets/131171459/815a0035-cf0b-406a-ad1d-4466efaa0872">
 
 ## URL
 https://corpsales-934dbaf7e58f.herokuapp.com
@@ -40,7 +39,7 @@ https://corpsales-934dbaf7e58f.herokuapp.com
 
 ＊管理者がユーザー登録をする前提で制作しています。ログイン前画面にログインIDとパスワードを載せているのでそちらを用いてログインしてください。
 
-<img width="956" alt="login" src="https://github.com/yuki202304/CorpSales/assets/131171459/3bb3a211-cf30-472e-9546-76f5fd0ccaa5">
+<img width="959" alt="login" src="https://github.com/yuki202304/CorpSales/assets/131171459/c7246bd9-0973-4496-8f55-86547893291f">
 
 ### 2.TOP画面
 TOP画面で個人成績と今月全体成績を表示させるようにしています。
@@ -50,7 +49,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 
 今月全体成績では今月の受注済み金額が上位の担当者順に棒グラフと表で表示させるようにしています。
 
-<img width="942" alt="index" src="https://github.com/yuki202304/CorpSales/assets/131171459/435f3efb-84e2-4349-8644-7963d006a572">
+<img width="948" alt="graph" src="https://github.com/yuki202304/CorpSales/assets/131171459/56e81b29-5bc4-407a-afbe-866d73a14dcf">
 <img width="947" alt="index2" src="https://github.com/yuki202304/CorpSales/assets/131171459/db5e7bd2-b52a-47e6-8423-a41ba0852bc1">
 
 ### 3.企業一覧
@@ -68,7 +67,7 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 企業登録画面から企業登録を行います。必須項目に入力せず確定ボタンを押すとエラーメッセージが表示されます。
 自社担当者の入力項目では現在ログインしている担当者名が自動的に入力されるようにしていますが、変更することも可能です。
 
-<img width="947" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/fd852d53-e01a-49dd-829b-a9e8a9708ef9">
+<img width="947" alt="company" src="https://github.com/yuki202304/CorpSales/assets/131171459/5b510182-4adc-4023-8ac4-e3e1f8902160">
 
 ### 5.担当者登録
 
@@ -115,15 +114,13 @@ TOP画面で個人成績と今月全体成績を表示させるようにして�
 
 案件ごとの行動履歴を確認することができます。＋ボタンを押すことでそれぞれの行動詳細を確認することができ、変更ボタンから編集画面に遷移します。
 
-<img width="947" alt="report-detail" src="https://github.com/yuki202304/CorpSales/assets/131171459/6704dd5f-e184-4aa7-9bc0-3a176fc78fe0">
+<img width="947" alt="report" src="https://github.com/yuki202304/CorpSales/assets/131171459/9f438014-c91b-4944-a4b8-1f10764c69e4">
 
 ### 12.ログアウト
 
 ログアウト画面でログアウトを行います。
 
-<img width="958" alt="logout" src="https://github.com/yuki202304/CorpSales/assets/131171459/0c73fc6b-1cb7-400f-9827-15d2c42669e8">
-
-
+<img width="959" alt="logout" src="https://github.com/yuki202304/CorpSales/assets/131171459/2cf87ba0-01c6-451a-9969-c87b1ddb49db">
 
 
 
